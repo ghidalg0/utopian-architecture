@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         utopian: "url('/banner.png')",
+        bubbles: "url('/bubbles.png')",
       },
     },
   },
