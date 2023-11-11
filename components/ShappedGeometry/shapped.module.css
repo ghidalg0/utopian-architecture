@@ -1,0 +1,16 @@
+.mosaic_wrapper {
+  width: 1000px; /* (panel_height+panel_margin*2)*panels per row = (100px+(10px*2))*8 */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.panel {
+  /* float: left; */
+  width: 200px;
+  height: 400px;
+  border-radius: 16px;
+  background: url("/banner.png") no-repeat center bottom fixed;
+}
