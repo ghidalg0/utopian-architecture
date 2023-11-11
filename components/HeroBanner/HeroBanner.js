@@ -1,7 +1,18 @@
+import ContentWrapper from "../Wrapper/ContentWrapper";
+
 const HeroBanner = () => {
   return (
     <section className="flex flex-col items-center justify-center h-screen">
-      <h1 className="font-bold text-8xl">Utopian Architecture</h1>
+      <ContentWrapper>
+        <h1 className="pb-8 font-extrabold text-center text-transparent bg-top bg-cover text-9xl bg-utopian bg-clip-text">
+          Utopian Architecture
+        </h1>
+        <h2 className="mt-8 text-3xl font-bold text-center text-zinc-700">
+          Explore visionary landscapes, where dream and design converge
+          seamlessly, unveiling a utopian tapestry of architectural innovation
+          and boundless possibilities.
+        </h2>
+      </ContentWrapper>
     </section>
   );
 };
