@@ -10,7 +10,7 @@
 .panel {
   /* float: left; */
   width: 200px;
-  height: 400px;
+  height: 320px;
   border-radius: 16px;
   background: url("/banner.png") no-repeat center bottom fixed;
 }

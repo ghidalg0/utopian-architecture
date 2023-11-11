@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ContentWrapper from "../Wrapper/ContentWrapper";
 
 const HeroBanner = () => {
@@ -13,6 +14,11 @@ const HeroBanner = () => {
           and boundless possibilities.
         </h2>
       </ContentWrapper>
+      <div className="absolute flex justify-center bottom-8">
+        <Link href="#first" className="text-zinc-500">
+          Visit Archos House
+        </Link>
+      </div>
     </section>
   );
 };
