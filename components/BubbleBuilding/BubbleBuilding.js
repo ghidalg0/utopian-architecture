@@ -4,7 +4,7 @@ const BubbleBuilding = () => {
   return (
     <section className="relative flex flex-col items-center justify-center min-h-screen">
       <Image
-        src="/banner-transformed.png"
+        src="/landscape/archos.png"
         width={1000}
         height={1000}
         className="w-full h-auto"
