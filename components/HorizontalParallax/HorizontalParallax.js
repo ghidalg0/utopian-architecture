@@ -81,6 +81,7 @@ const HorizontalParallax = () => {
                     width={1000}
                     height={1000}
                     alt="picture"
+                    priority={true}
                     className="w-auto h-full rounded-sm"
                   />
                 </div>
