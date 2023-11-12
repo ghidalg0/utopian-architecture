@@ -158,7 +158,7 @@ const ParallaxSection = () => {
               </div>
             </div>
             <Image
-              src="/desert-1.webp"
+              src="/oasis.webp"
               width={1000}
               height={1000}
               alt="picture"
