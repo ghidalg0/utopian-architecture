@@ -1,9 +1,9 @@
-import Parallax from "@/components/TestParallax/TestParallax";
+import ParallaxSection from "@/components/TestParallax/TestParallax";
 
 export default function ParallaxPage() {
   return (
     <main className="">
-      <Parallax />
+      <ParallaxSection />
     </main>
   );
 }
