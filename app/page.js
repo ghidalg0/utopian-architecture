@@ -1,7 +1,7 @@
 import BubbleBuilding from "@/components/BubbleBuilding/BubbleBuilding";
 import HeroBanner from "@/components/HeroBanner/HeroBanner";
+import HorizontalParallax from "@/components/HorizontalParallax/HorizontalParallax";
 import ShappedGeometry from "@/components/ShappedGeometry/ShappedGeometry";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <HeroBanner />
       <ShappedGeometry />
       <BubbleBuilding />
+      <HorizontalParallax />
     </main>
   );
 }
