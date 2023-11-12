@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         utopian: "url('/banner.png')",
         bubbles: "url('/bubbles.png')",
+        "rocks-1": "url('/landscape/rocks-1.png')",
       },
     },
   },
