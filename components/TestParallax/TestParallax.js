@@ -25,8 +25,13 @@ const ParallaxSection = () => {
           sticky={{ start: 1, end: 3 }}
           style={{ ...alignCenter, justifyContent: "flex-start" }}
         >
-          <div className={`${styles.sticky}`}>
-            <p>I&apos;m a sticky layer</p>
+          <div className="p-8 rounded text-zinc-800 bg-white/90 w-96 ms-40">
+            <p>
+              Experience harmonious living in this contemporary circular desert
+              oasis. Seamlessly blending modern design with nature, this unique
+              home offers panoramic views, sustainable features, and a tranquil
+              escape in the heart of the arid landscape.
+            </p>
           </div>
         </ParallaxLayer>
 
@@ -35,10 +40,10 @@ const ParallaxSection = () => {
           speed={0.5}
           style={{ ...alignCenter, justifyContent: "flex-end" }}
         >
-          <div className={`${styles.card} ${styles.parallax} ${styles.blue}`}>
+          <div className={`${styles.card} bg-white/90 me-40`}>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Circular Panoramic Design:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Embrace 360-degree views of the desert landscape from every
                 angle in this thoughtfully designed circular home.
@@ -46,7 +51,7 @@ const ParallaxSection = () => {
             </p>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Sustainable Oasis:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Harness the power of the sun with integrated solar panels,
                 making this dwelling an eco-friendly haven in the desert.
@@ -54,7 +59,7 @@ const ParallaxSection = () => {
             </p>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Indoor-Outdoor Fusion:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Experience the seamless flow between indoor and outdoor spaces,
                 blurring the lines between the desert and the modern interior.
@@ -62,7 +67,7 @@ const ParallaxSection = () => {
             </p>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Energy-Efficient Architecture:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Innovative design elements maximize energy efficiency, ensuring
                 a comfortable and sustainable living experience in the arid
@@ -71,7 +76,7 @@ const ParallaxSection = () => {
             </p>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Natural Light Abundance:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Bask in natural sunlight pouring through strategically placed
                 windows, creating a bright and airy atmosphere throughout the
@@ -86,10 +91,10 @@ const ParallaxSection = () => {
           speed={0.5}
           style={{ ...alignCenter, justifyContent: "flex-end" }}
         >
-          <div className={`${styles.card} ${styles.parallax} ${styles.blue}`}>
+          <div className={`${styles.card} bg-white/90 me-40`}>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Minimalistic Elegance:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Discover a modern aesthetic with clean lines, minimalist
                 furnishings, and a focus on simplicity that complements the
@@ -98,7 +103,7 @@ const ParallaxSection = () => {
             </p>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Smart Home Technology:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Enjoy the convenience of cutting-edge technology with smart home
                 features, seamlessly integrated to enhance comfort and
@@ -107,7 +112,7 @@ const ParallaxSection = () => {
             </p>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Private Desert Retreat:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Nestled in a secluded location, this circular house provides a
                 private escape, allowing residents to connect with the desert
@@ -116,7 +121,7 @@ const ParallaxSection = () => {
             </p>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Infinity Pool Oasis:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Relax in a luxurious infinity pool that appears to merge with
                 the desert horizon, offering a refreshing contrast to the arid
@@ -125,7 +130,7 @@ const ParallaxSection = () => {
             </p>
             <p className="mb-4 text-lg text-left text-zinc-800">
               Flexible Living Spaces:{" "}
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-600">
                 {" "}
                 Adaptable interiors cater to various needs, providing residents
                 with the freedom to customize and optimize their living spaces
